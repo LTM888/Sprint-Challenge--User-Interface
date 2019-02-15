@@ -77,7 +77,7 @@ p {
 .nav-header  {
     width: 800px;
     margin: 0 auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items:center;
 }
@@ -123,6 +123,9 @@ nav a {
 }
 
 .middle-content {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -132,8 +135,99 @@ nav a {
     margin-bottom: 0;
 }
 
+.boxes  {
+    display: flex;
+    width: 800px;
+    height:auto ;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
 
 
+.box-1 {
+    background: teal;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+
+}
+
+.box-2 {
+    background:gold;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    
+}
+
+.box-3{
+    background: cadetblue;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    
+}
+
+.box-4 {
+    background: coral;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    
+}
+
+.box-5 {
+    background: crimson;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    
+}
+
+.box-6 {
+    background: forestgreen;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+}
+
+
+.box-7 {
+    background: darkorchid;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    
+}
+
+.box-8 {
+    background: hotpink;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    
+
+}
+
+
+.box-9 {
+    background: indigo;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    
+}
+
+.box-10 {
+    background: dodgerblue;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    
+}
 
 
 .middle-content .boxes {
