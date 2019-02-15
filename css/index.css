@@ -147,85 +147,124 @@ nav a {
 }
 
 
-.box-1 {
+.box-1 p {
     background: teal;
     height: 100px;
     width: 100px;
     margin: 25px;
-
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 20%;
 }
 
-.box-2 {
+.box-2 p  {
     background:gold;
     height: 100px;
     width: 100px;
     margin: 25px;
-    
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
 }
 
-.box-3{
+.box-3 p {
     background: cadetblue;
     height: 100px;
     width: 100px;
     margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
+
     
 }
 
-.box-4 {
+.box-4 p {
     background: coral;
     height: 100px;
     width: 100px;
     margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
     
 }
 
-.box-5 {
+.box-5 p {
     background: crimson;
     height: 100px;
     width: 100px;
     margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
     
 }
 
-.box-6 {
+.box-6 p {
     background: forestgreen;
     height: 100px;
     width: 100px;
     margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
 }
 
 
-.box-7 {
+.box-7 p {
     background: darkorchid;
     height: 100px;
     width: 100px;
     margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
     
 }
 
-.box-8 {
+.box-8 p {
     background: hotpink;
     height: 100px;
     width: 100px;
     margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
     
 
 }
 
 
-.box-9 {
+.box-9 p  {
     background: indigo;
     height: 100px;
     width: 100px;
     margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
     
 }
 
-.box-10 {
+.box-10  p {
     background: dodgerblue;
     height: 100px;
     width: 100px;
     margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 17%;
+    display: block;
     
 }
 
@@ -297,9 +336,7 @@ footer nav a {
     align-items: center;
     margin-bottom: 25px;
     margin-top: 25px;
-    
-    
-    
+
 }
 
 .bottomtwo {
