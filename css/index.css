@@ -66,6 +66,43 @@ p {
     line-height: 1.4;
 }
 
+                      /* Nav-Header */
+
+.mainbox{
+    box-sizing: border-box;
+}
+
+
+
+.nav-header  {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    align-items:center;
+}
+
+.logo {
+    
+    /* border: 1px solid red; */
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 38px;
+    text-size-adjust: 1em;
+}
+
+.services-header-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -94,6 +131,10 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
+
+
+
+
 
 .middle-content .boxes {
     display: flex;
