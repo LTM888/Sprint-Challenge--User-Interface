@@ -279,3 +279,24 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+                   /* About Page */
+
+
+.toptwo  {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.bottomtwo {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    
+}
