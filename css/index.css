@@ -66,6 +66,43 @@ p {
     line-height: 1.4;
 }
 
+                      /* Nav-Header */
+
+.mainbox{
+    box-sizing: border-box;
+}
+
+
+
+.nav-header  {
+    width: 800px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items:center;
+}
+
+.logo {
+    
+    /* border: 1px solid red; */
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 38px;
+    text-size-adjust: 1em;
+}
+
+.services-header-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -86,6 +123,9 @@ p {
 }
 
 .middle-content {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -94,6 +134,140 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
+
+.boxes  {
+    display: flex;
+    width: 800px;
+    height:auto ;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.box-1 p {
+    background: teal;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 20%;
+}
+
+.box-2 p  {
+    background:gold;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
+}
+
+.box-3 p {
+    background: cadetblue;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
+
+    
+}
+
+.box-4 p {
+    background: coral;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
+    
+}
+
+.box-5 p {
+    background: crimson;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
+    
+}
+
+.box-6 p {
+    background: forestgreen;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
+}
+
+
+.box-7 p {
+    background: darkorchid;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
+    
+}
+
+.box-8 p {
+    background: hotpink;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
+    
+
+}
+
+
+.box-9 p  {
+    background: indigo;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 20%;
+    display: block;
+    
+}
+
+.box-10  p {
+    background: dodgerblue;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 17%;
+    display: block;
+    
+}
+
 
 .middle-content .boxes {
     display: flex;
@@ -143,4 +317,75 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+                   /* About Page */
+
+
+.about {
+    border-bottom: 1px dotted black;
+    padding: 10px;
+}
+
+.toptwo  {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.bottomtwo {
+   
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+
+.bottomtext {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.strategy {
+    border-bottom: 1px dotted black;
+    margin-right: 10px;
+}
+
+.HW {
+    border-bottom: 1px dotted black;
+}
+
+.boxpw {
+    border-bottom: 1px dotted black;
+    margin-right: 10px;
+}
+
+
+.boxC {
+    border-bottom: 1px dotted black;
+}
+
+button {
+    background:    #ffffff;
+    border:        1px solid #000000;
+    border-radius: 4px;
+    padding:       8px 20px;
+    color:         #000000;
+    display:       inline-block;
+    font:          normal 700 21px/1 "Calibri", sans-serif;
+    text-align:    center;
+    text-shadow:   none;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+button:hover  {
+    background-color: black;
+    color:white;
 }
