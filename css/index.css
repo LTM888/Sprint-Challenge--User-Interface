@@ -285,18 +285,70 @@ footer nav a {
                    /* About Page */
 
 
+.about {
+    border-bottom: 1px dotted black;
+    padding: 10px;
+}
+
 .toptwo  {
     display: flex;
     flex-wrap: nowrap;
     height: 100%;
     align-items: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    
+    
     
 }
 
 .bottomtwo {
-    border: 1px solid red;
+   
     display: flex;
     flex-wrap: nowrap;
     height: 100%;
-    
+}
+
+
+.bottomtext {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.strategy {
+    border-bottom: 1px dotted black;
+    margin-right: 10px;
+}
+
+.HW {
+    border-bottom: 1px dotted black;
+}
+
+.boxpw {
+    border-bottom: 1px dotted black;
+    margin-right: 10px;
+}
+
+
+.boxC {
+    border-bottom: 1px dotted black;
+}
+
+button {
+    background:    #ffffff;
+    border:        1px solid #000000;
+    border-radius: 4px;
+    padding:       8px 20px;
+    color:         #000000;
+    display:       inline-block;
+    font:          normal 700 21px/1 "Calibri", sans-serif;
+    text-align:    center;
+    text-shadow:   none;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+button:hover  {
+    background-color: black;
+    color:white;
 }
